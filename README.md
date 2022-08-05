@@ -1,6 +1,6 @@
 # NextPageable
 
-An ActiveRecord concern for basic paging support of ActiveRecord relations.
+A minimalstic ActiveRecord concern for basic paging support of ActiveRecord relations avoiding extra count queries where not needed.
 
 ## Installation
 
