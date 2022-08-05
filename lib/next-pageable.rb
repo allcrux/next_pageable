@@ -19,7 +19,7 @@ module NextPageable
         collection = collection[0...-1]
       end
 
-      return Page.new(collection:, next_page_index:)
+      return Page.new(collection: collection, next_page_index: next_page_index)
     end
   end
 end
