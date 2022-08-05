@@ -2,6 +2,8 @@
 
 A minimalstic ActiveRecord concern for basic paging support of ActiveRecord relations avoiding extra count queries where not needed.
 
+This gem is the perfect companion for [turbo-scroll](https://github.com/allcrux/turbo-scroll).
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
