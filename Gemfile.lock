@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    next_pageable (0.1.1)
+    next-pageable (0.1.1)
       activesupport
 
 GEM
@@ -53,7 +53,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.0)
-  next_pageable!
+  next-pageable!
   rake (~> 13.0)
   standard (~> 1.3)
 

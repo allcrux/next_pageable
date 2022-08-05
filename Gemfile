@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in next_pageable.gemspec
+# Specify your gem's dependencies in next-pageable.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

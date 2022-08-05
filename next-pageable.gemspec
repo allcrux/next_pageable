@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/next_pageable/version"
+require_relative "lib/next-pageable/version"
 
 Gem::Specification.new do |spec|
   spec.name = "next-pageable"

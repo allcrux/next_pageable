@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 require 'active_support/concern'
 
-require_relative "next_pageable/version"
-require_relative "next_pageable/page"
+require_relative "next-pageable/version"
+require_relative "next-pageable/page"
 
 module NextPageable
   extend ActiveSupport::Concern
