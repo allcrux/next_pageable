@@ -3,7 +3,7 @@
 require_relative "lib/next_pageable/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "next_pageable"
+  spec.name = "next-pageable"
   spec.version = NextPageable::VERSION
   spec.authors = ["Koen handekyn"]
   spec.email = ["koen@handekyn.com"]
