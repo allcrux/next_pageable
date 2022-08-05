@@ -6,11 +6,11 @@ An ActiveRecord concern for basic paging support of ActiveRecord relations.
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add next_pageable
+    $ bundle add next-pageable
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install next_pageable
+    $ gem install next-pageable
 
 ## Usage
 
