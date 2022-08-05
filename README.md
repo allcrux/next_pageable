@@ -4,6 +4,8 @@ A minimalstic ActiveRecord concern for basic paging support of ActiveRecord rela
 
 This gem is the perfect companion for [turbo-scroll](https://github.com/allcrux/turbo-scroll).
 
+[![Ruby](https://github.com/allcrux/next-pageable/actions/workflows/main.yml/badge.svg)](https://github.com/allcrux/next-pageable/actions/workflows/main.yml)
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
