@@ -9,7 +9,7 @@ module NextPageable
   extend ActiveSupport::Concern
 
   class_methods do
-    def page(page, pagesize: 15)
+    def paginate(page, pagesize: 15)
       collection =
 
         limit(pagesize + 1)
