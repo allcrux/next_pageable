@@ -40,14 +40,14 @@ For models that are enriched one extra class method `page` becomes available.
 It can be chained onto existing scope methods but should be the last method in the chain.
 
 ```rb
-page = Article.all.page(0) # returns the 1st page for all articles
-page = Article.in_stock.page(3) # returns the 4th page for articles currently in stock
+page = Article.all.paginate(0) # returns the 1st page for all articles
+page = Article.in_stock.paginate(3) # returns the 4th page for articles currently in stock
 ```
 
 Default pagesize is 15 but it can be passed as an extra parameter.
 
 ```rb
-page = Article.all.page(1, pagesize: 50) # returns the 2nd page for all articles with a pagesize of 50
+page = Article.all.paginate(1, pagesize: 50) # returns the 2nd page for all articles with a pagesize of 50
 ```
 
 You can directly iterate over the records on the page object.
