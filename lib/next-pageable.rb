@@ -13,7 +13,7 @@ module NextPageable
       collection =
 
         limit(pagesize + 1)
-          .offset(page.to_i * pagesize)
+          .offset((page.to_i-1) * pagesize)
 
       if collection.length > pagesize
         next_page_index = page.to_i + 1
