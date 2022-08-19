@@ -10,13 +10,13 @@ module NextPageable
 
   class_methods do
     def paginate(page, pagesize: 15)
+      page = page ? page.to_i : 1
       collection =
-
         limit(pagesize + 1)
-          .offset((page.to_i-1) * pagesize)
+          .offset((page - 1) * pagesize)
 
       if collection.length > pagesize
-        next_page_index = page.to_i + 1
+        next_page_index = page + 1
         collection = collection[0...-1]
       end
 
