@@ -17,7 +17,6 @@ module NextPageable
     delegate :to_a, to: :collection
     delegate :size, to: :collection
     delegate :length, to: :collection
-    delegate :pluck, to: :collection
 
     def next_page?
       next_page_index.present?
